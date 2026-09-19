@@ -1,0 +1,10 @@
+﻿packaged_file,authoritative_source,note
+synthetic_generation.py,source/experiment_common.py,Alias retained to match the requested package layout.
+feature_extraction.py,source/01_window_feature_relevance.py,Alias retained to match the requested package layout.
+am_fcm.py,source/experiment_common.py,Alias retained to match the requested package layout.
+chen_fcm.py,source/chen_fcm_benchmark.py,Alias retained to match the requested package layout.
+sta_lta.py,source/stalta_benchmark.py,Alias retained to match the requested package layout.
+aic_picker.py,source/aic_benchmark.py,Alias retained to match the requested package layout.
+phasenet_evaluation.py,source/27_train_synthetic_deep_pickers.py,Alias retained to match the requested package layout.
+eqtransformer_evaluation.py,source/27_train_synthetic_deep_pickers.py,Alias retained to match the requested package layout.
+field_data_evaluation.py,source/19_run_am_fcm_field.py,Alias retained to match the requested package layout.

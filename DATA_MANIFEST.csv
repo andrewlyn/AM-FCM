@@ -1,0 +1,11 @@
+﻿path,status,description
+01_Synthetic_Data,included,"Synthetic raw/summary data used by manuscript analyses, including Figure 8 noise and Figure 9 waveform replicate-level raw results."
+02_Field_Data/field_waveforms,included,816 processed field traces used in the field result tables.
+02_Field_Data/manual_reference_picks.csv,included,Manual reference arrival picks paired to field traces.
+02_Field_Data/PhaseNet_field_results.csv,not_available_in_current_workspace,Schema/status file only; no field deep-learning output was found.
+02_Field_Data/EQTransformer_field_results.csv,not_available_in_current_workspace,Schema/status file only; no field deep-learning output was found.
+03_Figure_Source_Data,included_with_gaps,Point tables for available figures; Figure 2 still needs saved CWT example arrays.
+04_Table_Source_Data,included,"Source tables for reported synthetic, field, cluster, and cost results."
+05_Parameters,included,"Parsed algorithm, synthetic, field, and deep-learning settings."
+06_Code,included,"Author-generated scripts, figure notebooks, requirements, and aliases."
+07_Supporting_Information/S1_Table_AM_FCM_parameters.xlsx,created,Workbook generated after the CSV package build.

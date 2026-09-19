@@ -1,0 +1,16 @@
+﻿parameter,value,source_file
+seisbench_version,0.12.2,Table_1\results_phasenet_eqtransformer\experiment_config.json
+sampling_rate_hz,1000.0,Table_1\results_phasenet_eqtransformer\experiment_config.json
+input_samples,450,Table_1\results_phasenet_eqtransformer\experiment_config.json
+input_channels,1,Table_1\results_phasenet_eqtransformer\experiment_config.json
+frequencies_hz,"[100, 150, 200, 250, 300]",Table_1\results_phasenet_eqtransformer\experiment_config.json
+snr_db,"[-10, -8, -6, 2]",Table_1\results_phasenet_eqtransformer\experiment_config.json
+train_repeats_per_condition,500,Table_1\results_phasenet_eqtransformer\experiment_config.json
+val_repeats_per_condition,100,Table_1\results_phasenet_eqtransformer\experiment_config.json
+test_repeats_per_condition,2000,Table_1\results_phasenet_eqtransformer\experiment_config.json
+p_label_sigma_ms,3.0,Table_1\results_phasenet_eqtransformer\experiment_config.json
+detection_length_ms,100.0,Table_1\results_phasenet_eqtransformer\experiment_config.json
+reference,AIC_prepeak_clean,Table_1\results_phasenet_eqtransformer\experiment_config.json
+normalization,per-trace demean + std,Table_1\results_phasenet_eqtransformer\experiment_config.json
+noise,WGN,Table_1\results_phasenet_eqtransformer\experiment_config.json
+base_seed,20260911,Table_1\results_phasenet_eqtransformer\experiment_config.json

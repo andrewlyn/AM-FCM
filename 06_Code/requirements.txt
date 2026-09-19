@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+PyWavelets
+joblib
+fcmeans
+matplotlib
+seaborn
+openpyxl
+torch
+seisbench

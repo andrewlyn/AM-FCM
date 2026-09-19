@@ -1,0 +1,55 @@
+Stage	Parameter	Code variable	Value or setting
+Feature construction	Selected features	FEATURE_NAMES	"Mean,Std"
+Feature construction	Local feature-window length	WINDOW_SIZE	11 samples
+Feature construction	Short-term window length	SHORT_SIZE	21 samples
+Feature construction	Long-term window length	LONG_SIZE	105 samples
+Feature normalization	Scaling method	¡ª	"Min¨CMax normalization to [0, 1]"
+FCM	Minimum cluster number	C_MIN	2
+FCM	Maximum cluster number	C_MAX	10
+FCM	Fuzziness exponent	FCM_M	2
+FCM	Maximum iterations	FCM_MAX_ITER	100
+FCM	Convergence tolerance	FCM_ERROR	1¡Á10?6
+FCM	Random state	FCM_RANDOM_STATE	42
+Signal-cluster selection	Selection criterion	¡ª	Cluster with the largest mean centroid value across the selected features
+Peak detection	Minimum peak height	PEAK_HEIGHT	0.55
+Peak detection	Minimum peak prominence	PEAK_PROMINENCE	0.12
+Peak detection	Minimum peak width	PEAK_WIDTH	2 samples
+Peak detection	Minimum peak distance	PEAK_DISTANCE	3 samples
+Peak merging	Active-region threshold	REGION_THRESHOLD	0.4
+Peak merging	Within-region peak selection	¡ª	Peaks belonging to the same continuous active region are merged; the peak with the greatest prominence is retained
+Onset determination	Onset ratio	ONSET_RATIO	0.35
+Onset determination	Required consecutive samples	ONSET_CONSECUTIVE	2 samples
+Onset determination	Look-back window	ONSET_LOOKBACK	100 samples
+Onset determination	Local-baseline percentile	ONSET_BASELINE_PERCENTILE	10th percentile
+Onset determination	Onset-level definition	¡ª	", where B is the local baseline, T is the onset ratio, and "
+			is the peak membership
+Adaptive stopping	Stopping criterion	¡ª	Stop when exactly one valid peak remains after region-based merging and a valid onset is identified
+Reliability assessment	No unique valid peak	¡ª	"Increase C; if no unique valid peak is obtained by Cmax, classify the trace as unreliable"
+Reliability assessment	No valid onset crossing	¡ª	"If a unique peak is obtained but no valid onset is found, classify the trace as unreliable"
+Stability diagnosis	Peak-position tolerance	STABLE_SHIFT	3 samples; diagnostic only and not used as a stopping criterion
+Additional smoothing	Membership-curve smoothing	¡ª	No additional smoothing is applied before peak detection
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
