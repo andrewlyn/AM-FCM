@@ -1,0 +1,2 @@
+﻿status,source_file,notes
+not_available_in_current_workspace,program/21_train_field_deep_pickers.py; program/22_train_field_deep_pickers_5fold.py,Field PhaseNet/EQTransformer result CSVs were not present; do not use these files as completed results.
